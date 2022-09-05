@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		DC95DAF128BDBB8300DBFD80 /* request_blocks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = request_blocks.cpp; sourceTree = "<group>"; };
+		DC95DAF228BDBB8300DBFD80 /* http_tracker_connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = http_tracker_connection.cpp; sourceTree = "<group>"; };
+		DC95DAF328BDBB8300DBFD80 /* choker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = choker.cpp; sourceTree = "<group>"; };
+		DC95DAF428BDBB8300DBFD80 /* peer_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = peer_list.cpp; sourceTree = "<group>"; };
+		DC95DAF528BDBB8300DBFD80 /* udp_tracker_connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = udp_tracker_connection.cpp; sourceTree = "<group>"; };
+		DC95DAF628BDBB8300DBFD80 /* storage_piece_set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = storage_piece_set.cpp; sourceTree = "<group>"; };
+		DC95DAF728BDBB8300DBFD80 /* tracker_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tracker_manager.cpp; sourceTree = "<group>"; };
+		DC95DAF828BDBB8300DBFD80 /* string_util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string_util.cpp; sourceTree = "<group>"; };
+		DC95DAF928BDBB8300DBFD80 /* magnet_uri.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = magnet_uri.cpp; sourceTree = "<group>"; };
+		DC95DAFA28BDBB8300DBFD80 /* http_stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = http_stream.cpp; sourceTree = "<group>"; };
+		DC95DAFB28BDBB8300DBFD80 /* platform_util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = platform_util.cpp; sourceTree = "<group>"; };
+		DC95DAFC28BDBB8300DBFD80 /* session_udp_sockets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = session_udp_sockets.cpp; sourceTree = "<group>"; };
+		DC95DAFD28BDBB8300DBFD80 /* add_torrent_params.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = add_torrent_params.cpp; sourceTree = "<group>"; };
+		DC95DAFE28BDBB8300DBFD80 /* piece_picker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = piece_picker.cpp; sourceTree = "<group>"; };
+		DC95DAFF28BDBB8300DBFD80 /* session_handle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = session_handle.cpp; sourceTree = "<group>"; };
+		DC95DB0028BDBB8300DBFD80 /* utp_stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utp_stream.cpp; sourceTree = "<group>"; };
+		DC95DB0128BDBB8300DBFD80 /* stack_allocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack_allocator.cpp; sourceTree = "<group>"; };
+		DC95DB0228BDBB8300DBFD80 /* peer_connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = peer_connection.cpp; sourceTree = "<group>"; };
+		DC95DB0328BDBB8300DBFD80 /* listen_socket_handle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = listen_socket_handle.cpp; sourceTree = "<group>"; };
+		DC95DB0428BDBB8300DBFD80 /* settings_pack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = settings_pack.cpp; sourceTree = "<group>"; };
+		DC95DB0528BDBB8300DBFD80 /* create_torrent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = create_torrent.cpp; sourceTree = "<group>"; };
+		DC95DB0628BDBB8300DBFD80 /* socks5_stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = socks5_stream.cpp; sourceTree = "<group>"; };
+		DC95DB0728BDBB8300DBFD80 /* hasher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hasher.cpp; sourceTree = "<group>"; };
+		DC95DB0828BDBB8300DBFD80 /* identify_client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = identify_client.cpp; sourceTree = "<group>"; };
+		DC95DB0928BDBB8300DBFD80 /* disk_job_fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disk_job_fence.cpp; sourceTree = "<group>"; };
+		DC95DB0A28BDBB8300DBFD80 /* sha1_hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sha1_hash.cpp; sourceTree = "<group>"; };
+		DC95DB0B28BDBB8300DBFD80 /* hasher512.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hasher512.cpp; sourceTree = "<group>"; };
+		DC95DB0C28BDBB8300DBFD80 /* stat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stat.cpp; sourceTree = "<group>"; };
+		DC95DB0D28BDBB8300DBFD80 /* instantiate_connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = instantiate_connection.cpp; sourceTree = "<group>"; };
+		DC95DB0E28BDBB8300DBFD80 /* escape_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = escape_string.cpp; sourceTree = "<group>"; };
+		DC95DB0F28BDBB8300DBFD80 /* stat_cache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stat_cache.cpp; sourceTree = "<group>"; };
+		DC95DB1028BDBB8300DBFD80 /* version.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = version.cpp; sourceTree = "<group>"; };
+		DC95DB1128BDBB8300DBFD80 /* part_file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = part_file.cpp; sourceTree = "<group>"; };
+		DC95DB1228BDBB8300DBFD80 /* ut_pex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ut_pex.cpp; sourceTree = "<group>"; };
+		DC95DB1328BDBB8300DBFD80 /* chained_buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chained_buffer.cpp; sourceTree = "<group>"; };
+		DC95DB1428BDBB8300DBFD80 /* lazy_bdecode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lazy_bdecode.cpp; sourceTree = "<group>"; };
+		DC95DB1528BDBB8300DBFD80 /* disk_buffer_pool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disk_buffer_pool.cpp; sourceTree = "<group>"; };
+		DC95DB1628BDBB8300DBFD80 /* disk_io_thread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disk_io_thread.cpp; sourceTree = "<group>"; };
+		DC95DB1728BDBB8300DBFD80 /* random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		DC95DB1828BDBB8300DBFD80 /* parse_url.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parse_url.cpp; sourceTree = "<group>"; };
+		DC95DB1928BDBB8300DBFD80 /* natpmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = natpmp.cpp; sourceTree = "<group>"; };
+		DC95DB1A28BDBB8300DBFD80 /* read_resume_data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = read_resume_data.cpp; sourceTree = "<group>"; };
+		DC95DB1B28BDBB8300DBFD80 /* merkle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = merkle.cpp; sourceTree = "<group>"; };
+		DC95DB1C28BDBB8300DBFD80 /* fingerprint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fingerprint.cpp; sourceTree = "<group>"; };
+		DC95DB1D28BDBB8300DBFD80 /* write_resume_data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = write_resume_data.cpp; sourceTree = "<group>"; };
+		DC95DB1E28BDBB8300DBFD80 /* entry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = entry.cpp; sourceTree = "<group>"; };
+		DC95DB1F28BDBB8300DBFD80 /* bloom_filter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bloom_filter.cpp; sourceTree = "<group>"; };
+		DC95DB2028BDBB8300DBFD80 /* kademlia */ = {isa = PBXFileReference; lastKnownFileType = folder; path = kademlia; sourceTree = "<group>"; };
+		DC95DB2128BDBB8300DBFD80 /* http_parser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = http_parser.cpp; sourceTree = "<group>"; };
+		DC95DB2228BDBB8300DBFD80 /* assert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assert.cpp; sourceTree = "<group>"; };
+		DC95DB2328BDBB8300DBFD80 /* disk_buffer_holder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disk_buffer_holder.cpp; sourceTree = "<group>"; };
+		DC95DB2428BDBB8300DBFD80 /* proxy_settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = proxy_settings.cpp; sourceTree = "<group>"; };
+		DC95DB2528BDBB8300DBFD80 /* ConvertUTF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertUTF.cpp; sourceTree = "<group>"; };
+		DC95DB2628BDBB8300DBFD80 /* disk_job_pool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disk_job_pool.cpp; sourceTree = "<group>"; };
+		DC95DB2728BDBB8300DBFD80 /* sha1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
+		DC95DB2828BDBB8300DBFD80 /* ffs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ffs.cpp; sourceTree = "<group>"; };
+		DC95DB2928BDBB8300DBFD80 /* torrent_status.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = torrent_status.cpp; sourceTree = "<group>"; };
+		DC95DB2A28BDBB8300DBFD80 /* error_code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = error_code.cpp; sourceTree = "<group>"; };
+		DC95DB2B28BDBB8300DBFD80 /* session_stats.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = session_stats.cpp; sourceTree = "<group>"; };
+		DC95DB2C28BDBB8300DBFD80 /* storage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = storage.cpp; sourceTree = "<group>"; };
+		DC95DB2D28BDBB8300DBFD80 /* session_settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = session_settings.cpp; sourceTree = "<group>"; };
+		DC95DB2E28BDBB8300DBFD80 /* sha512.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sha512.cpp; sourceTree = "<group>"; };
+		DC95DB2F28BDBB8300DBFD80 /* asio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = asio.cpp; sourceTree = "<group>"; };
+		DC95DB3028BDBB8300DBFD80 /* bt_peer_connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bt_peer_connection.cpp; sourceTree = "<group>"; };
+		DC95DB3128BDBB8300DBFD80 /* gzip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gzip.cpp; sourceTree = "<group>"; };
+		DC95DB3228BDBB8300DBFD80 /* i2p_stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = i2p_stream.cpp; sourceTree = "<group>"; };
+		DC95DB3328BDBB8300DBFD80 /* storage_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = storage_utils.cpp; sourceTree = "<group>"; };
+		DC95DB3428BDBB8300DBFD80 /* http_seed_connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = http_seed_connection.cpp; sourceTree = "<group>"; };
+		DC95DB3528BDBB8300DBFD80 /* torrent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = torrent.cpp; sourceTree = "<group>"; };
+		DC95DB3628BDBB8300DBFD80 /* peer_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = peer_info.cpp; sourceTree = "<group>"; };
+		DC95DB3728BDBB8300DBFD80 /* peer_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = peer_class.cpp; sourceTree = "<group>"; };
+		DC95DB3828BDBB8300DBFD80 /* web_connection_base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = web_connection_base.cpp; sourceTree = "<group>"; };
+		DC95DB3928BDBB8300DBFD80 /* alert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = alert.cpp; sourceTree = "<group>"; };
+		DC95DB3A28BDBB8300DBFD80 /* socket_io.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = socket_io.cpp; sourceTree = "<group>"; };
+		DC95DB3B28BDBB8300DBFD80 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		DC95DB3C28BDBB8300DBFD80 /* pe_crypto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pe_crypto.cpp; sourceTree = "<group>"; };
+		DC95DB3D28BDBB8300DBFD80 /* close_reason.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = close_reason.cpp; sourceTree = "<group>"; };
+		DC95DB3E28BDBB8300DBFD80 /* disk_io_job.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disk_io_job.cpp; sourceTree = "<group>"; };
+		DC95DB3F28BDBB8300DBFD80 /* bdecode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bdecode.cpp; sourceTree = "<group>"; };
+		DC95DB4028BDBB8300DBFD80 /* puff.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = puff.cpp; sourceTree = "<group>"; };
+		DC95DB4128BDBB8300DBFD80 /* peer_connection_handle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = peer_connection_handle.cpp; sourceTree = "<group>"; };
+		DC95DB4228BDBB8300DBFD80 /* ip_voter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ip_voter.cpp; sourceTree = "<group>"; };
+		DC95DB4328BDBB8300DBFD80 /* session.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = session.cpp; sourceTree = "<group>"; };
+		DC95DB4428BDBB8300DBFD80 /* upnp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = upnp.cpp; sourceTree = "<group>"; };
+		DC95DB4528BDBB8300DBFD80 /* file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = file.cpp; sourceTree = "<group>"; };
+		DC95DB4628BDBB8300DBFD80 /* ip_notifier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ip_notifier.cpp; sourceTree = "<group>"; };
+		DC95DB4728BDBB8300DBFD80 /* file_pool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = file_pool.cpp; sourceTree = "<group>"; };
+		DC95DB4828BDBB8300DBFD80 /* bitfield.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitfield.cpp; sourceTree = "<group>"; };
+		DC95DB4928BDBB8300DBFD80 /* session_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = session_impl.cpp; sourceTree = "<group>"; };
+		DC95DB4A28BDBB8300DBFD80 /* udp_socket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = udp_socket.cpp; sourceTree = "<group>"; };
+		DC95DB4B28BDBB8300DBFD80 /* announce_entry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = announce_entry.cpp; sourceTree = "<group>"; };
+		DC95DB4C28BDBB8300DBFD80 /* enum_net.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = enum_net.cpp; sourceTree = "<group>"; };
+		DC95DB4D28BDBB8300DBFD80 /* hex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hex.cpp; sourceTree = "<group>"; };
+		DC95DB4E28BDBB8300DBFD80 /* ip_filter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ip_filter.cpp; sourceTree = "<group>"; };
+		DC95DB4F28BDBB8300DBFD80 /* torrent_handle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = torrent_handle.cpp; sourceTree = "<group>"; };
+		DC95DB5028BDBB8300DBFD80 /* path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = path.cpp; sourceTree = "<group>"; };
+		DC95DB5128BDBB8300DBFD80 /* lsd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lsd.cpp; sourceTree = "<group>"; };
+		DC95DB5228BDBB8300DBFD80 /* receive_buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = receive_buffer.cpp; sourceTree = "<group>"; };
+		DC95DB5328BDBB8300DBFD80 /* file_storage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = file_storage.cpp; sourceTree = "<group>"; };
+		DC95DB5428BDBB8300DBFD80 /* peer_class_set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = peer_class_set.cpp; sourceTree = "<group>"; };
+		DC95DB5528BDBB8300DBFD80 /* block_cache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = block_cache.cpp; sourceTree = "<group>"; };
+		DC95DB5628BDBB8300DBFD80 /* alert_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = alert_manager.cpp; sourceTree = "<group>"; };
+		DC95DB5728BDBB8300DBFD80 /* session_call.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = session_call.cpp; sourceTree = "<group>"; };
+		DC95DB5828BDBB8300DBFD80 /* web_peer_connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = web_peer_connection.cpp; sourceTree = "<group>"; };
+		DC95DB5928BDBB8300DBFD80 /* http_connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = http_connection.cpp; sourceTree = "<group>"; };
+		DC95DB5A28BDBB8300DBFD80 /* resolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resolver.cpp; sourceTree = "<group>"; };
+		DC95DB5B28BDBB8300DBFD80 /* packet_buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_buffer.cpp; sourceTree = "<group>"; };
+		DC95DB5C28BDBB8300DBFD80 /* torrent_peer_allocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = torrent_peer_allocator.cpp; sourceTree = "<group>"; };
+		DC95DB5D28BDBB8300DBFD80 /* bandwidth_limit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bandwidth_limit.cpp; sourceTree = "<group>"; };
+		DC95DB5E28BDBB8300DBFD80 /* proxy_base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = proxy_base.cpp; sourceTree = "<group>"; };
+		DC95DB5F28BDBB8300DBFD80 /* ed25519 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ed25519; sourceTree = "<group>"; };
+		DC95DB6028BDBB8300DBFD80 /* performance_counters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = performance_counters.cpp; sourceTree = "<group>"; };
+		DC95DB6128BDBB8300DBFD80 /* smart_ban.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = smart_ban.cpp; sourceTree = "<group>"; };
+		DC95DB6228BDBB8300DBFD80 /* file_progress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = file_progress.cpp; sourceTree = "<group>"; };
+		DC95DB6328BDBB8300DBFD80 /* broadcast_socket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = broadcast_socket.cpp; sourceTree = "<group>"; };
+		DC95DB6428BDBB8300DBFD80 /* torrent_peer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = torrent_peer.cpp; sourceTree = "<group>"; };
+		DC95DB6528BDBB8300DBFD80 /* utf8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utf8.cpp; sourceTree = "<group>"; };
+		DC95DB6628BDBB8300DBFD80 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		DC95DB6728BDBB8300DBFD80 /* bandwidth_queue_entry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bandwidth_queue_entry.cpp; sourceTree = "<group>"; };
+		DC95DB6828BDBB8300DBFD80 /* torrent_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = torrent_info.cpp; sourceTree = "<group>"; };
+		DC95DB6928BDBB8300DBFD80 /* resolve_links.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resolve_links.cpp; sourceTree = "<group>"; };
+		DC95DB6A28BDBB8300DBFD80 /* disk_io_thread_pool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = disk_io_thread_pool.cpp; sourceTree = "<group>"; };
+		DC95DB6B28BDBB8300DBFD80 /* socket_type.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = socket_type.cpp; sourceTree = "<group>"; };
+		DC95DB6C28BDBB8300DBFD80 /* ut_metadata.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ut_metadata.cpp; sourceTree = "<group>"; };
+		DC95DB6D28BDBB8300DBFD80 /* utp_socket_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utp_socket_manager.cpp; sourceTree = "<group>"; };
+		DC95DB6E28BDBB8300DBFD80 /* timestamp_history.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = timestamp_history.cpp; sourceTree = "<group>"; };
+		DC95DB6F28BDBB8300DBFD80 /* bandwidth_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bandwidth_manager.cpp; sourceTree = "<group>"; };
+		DC95DB7028BDBB8300DBFD80 /* cpuid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cpuid.cpp; sourceTree = "<group>"; };
+		DC95DB7128BDBB8300DBFD80 /* time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
+		DC95DB7228BDBB8300DBFD80 /* crc32c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = crc32c.cpp; sourceTree = "<group>"; };
+		DC95DB7328BDBB8300DBFD80 /* generate_peer_id.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = generate_peer_id.cpp; sourceTree = "<group>"; };
+		DC95DB7428BDBB8300DBFD80 /* xml_parse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xml_parse.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		DC95DAEB28BDBB8300DBFD80 = {
+			isa = PBXGroup;
+			children = (
+				DC95DAF128BDBB8300DBFD80 /* request_blocks.cpp */,
+				DC95DAF228BDBB8300DBFD80 /* http_tracker_connection.cpp */,
+				DC95DAF328BDBB8300DBFD80 /* choker.cpp */,
+				DC95DAF428BDBB8300DBFD80 /* peer_list.cpp */,
+				DC95DAF528BDBB8300DBFD80 /* udp_tracker_connection.cpp */,
+				DC95DAF628BDBB8300DBFD80 /* storage_piece_set.cpp */,
+				DC95DAF728BDBB8300DBFD80 /* tracker_manager.cpp */,
+				DC95DAF828BDBB8300DBFD80 /* string_util.cpp */,
+				DC95DAF928BDBB8300DBFD80 /* magnet_uri.cpp */,
+				DC95DAFA28BDBB8300DBFD80 /* http_stream.cpp */,
+				DC95DAFB28BDBB8300DBFD80 /* platform_util.cpp */,
+				DC95DAFC28BDBB8300DBFD80 /* session_udp_sockets.cpp */,
+				DC95DAFD28BDBB8300DBFD80 /* add_torrent_params.cpp */,
+				DC95DAFE28BDBB8300DBFD80 /* piece_picker.cpp */,
+				DC95DAFF28BDBB8300DBFD80 /* session_handle.cpp */,
+				DC95DB0028BDBB8300DBFD80 /* utp_stream.cpp */,
+				DC95DB0128BDBB8300DBFD80 /* stack_allocator.cpp */,
+				DC95DB0228BDBB8300DBFD80 /* peer_connection.cpp */,
+				DC95DB0328BDBB8300DBFD80 /* listen_socket_handle.cpp */,
+				DC95DB0428BDBB8300DBFD80 /* settings_pack.cpp */,
+				DC95DB0528BDBB8300DBFD80 /* create_torrent.cpp */,
+				DC95DB0628BDBB8300DBFD80 /* socks5_stream.cpp */,
+				DC95DB0728BDBB8300DBFD80 /* hasher.cpp */,
+				DC95DB0828BDBB8300DBFD80 /* identify_client.cpp */,
+				DC95DB0928BDBB8300DBFD80 /* disk_job_fence.cpp */,
+				DC95DB0A28BDBB8300DBFD80 /* sha1_hash.cpp */,
+				DC95DB0B28BDBB8300DBFD80 /* hasher512.cpp */,
+				DC95DB0C28BDBB8300DBFD80 /* stat.cpp */,
+				DC95DB0D28BDBB8300DBFD80 /* instantiate_connection.cpp */,
+				DC95DB0E28BDBB8300DBFD80 /* escape_string.cpp */,
+				DC95DB0F28BDBB8300DBFD80 /* stat_cache.cpp */,
+				DC95DB1028BDBB8300DBFD80 /* version.cpp */,
+				DC95DB1128BDBB8300DBFD80 /* part_file.cpp */,
+				DC95DB1228BDBB8300DBFD80 /* ut_pex.cpp */,
+				DC95DB1328BDBB8300DBFD80 /* chained_buffer.cpp */,
+				DC95DB1428BDBB8300DBFD80 /* lazy_bdecode.cpp */,
+				DC95DB1528BDBB8300DBFD80 /* disk_buffer_pool.cpp */,
+				DC95DB1628BDBB8300DBFD80 /* disk_io_thread.cpp */,
+				DC95DB1728BDBB8300DBFD80 /* random.cpp */,
+				DC95DB1828BDBB8300DBFD80 /* parse_url.cpp */,
+				DC95DB1928BDBB8300DBFD80 /* natpmp.cpp */,
+				DC95DB1A28BDBB8300DBFD80 /* read_resume_data.cpp */,
+				DC95DB1B28BDBB8300DBFD80 /* merkle.cpp */,
+				DC95DB1C28BDBB8300DBFD80 /* fingerprint.cpp */,
+				DC95DB1D28BDBB8300DBFD80 /* write_resume_data.cpp */,
+				DC95DB1E28BDBB8300DBFD80 /* entry.cpp */,
+				DC95DB1F28BDBB8300DBFD80 /* bloom_filter.cpp */,
+				DC95DB2028BDBB8300DBFD80 /* kademlia */,
+				DC95DB2128BDBB8300DBFD80 /* http_parser.cpp */,
+				DC95DB2228BDBB8300DBFD80 /* assert.cpp */,
+				DC95DB2328BDBB8300DBFD80 /* disk_buffer_holder.cpp */,
+				DC95DB2428BDBB8300DBFD80 /* proxy_settings.cpp */,
+				DC95DB2528BDBB8300DBFD80 /* ConvertUTF.cpp */,
+				DC95DB2628BDBB8300DBFD80 /* disk_job_pool.cpp */,
+				DC95DB2728BDBB8300DBFD80 /* sha1.cpp */,
+				DC95DB2828BDBB8300DBFD80 /* ffs.cpp */,
+				DC95DB2928BDBB8300DBFD80 /* torrent_status.cpp */,
+				DC95DB2A28BDBB8300DBFD80 /* error_code.cpp */,
+				DC95DB2B28BDBB8300DBFD80 /* session_stats.cpp */,
+				DC95DB2C28BDBB8300DBFD80 /* storage.cpp */,
+				DC95DB2D28BDBB8300DBFD80 /* session_settings.cpp */,
+				DC95DB2E28BDBB8300DBFD80 /* sha512.cpp */,
+				DC95DB2F28BDBB8300DBFD80 /* asio.cpp */,
+				DC95DB3028BDBB8300DBFD80 /* bt_peer_connection.cpp */,
+				DC95DB3128BDBB8300DBFD80 /* gzip.cpp */,
+				DC95DB3228BDBB8300DBFD80 /* i2p_stream.cpp */,
+				DC95DB3328BDBB8300DBFD80 /* storage_utils.cpp */,
+				DC95DB3428BDBB8300DBFD80 /* http_seed_connection.cpp */,
+				DC95DB3528BDBB8300DBFD80 /* torrent.cpp */,
+				DC95DB3628BDBB8300DBFD80 /* peer_info.cpp */,
+				DC95DB3728BDBB8300DBFD80 /* peer_class.cpp */,
+				DC95DB3828BDBB8300DBFD80 /* web_connection_base.cpp */,
+				DC95DB3928BDBB8300DBFD80 /* alert.cpp */,
+				DC95DB3A28BDBB8300DBFD80 /* socket_io.cpp */,
+				DC95DB3B28BDBB8300DBFD80 /* Makefile.am */,
+				DC95DB3C28BDBB8300DBFD80 /* pe_crypto.cpp */,
+				DC95DB3D28BDBB8300DBFD80 /* close_reason.cpp */,
+				DC95DB3E28BDBB8300DBFD80 /* disk_io_job.cpp */,
+				DC95DB3F28BDBB8300DBFD80 /* bdecode.cpp */,
+				DC95DB4028BDBB8300DBFD80 /* puff.cpp */,
+				DC95DB4128BDBB8300DBFD80 /* peer_connection_handle.cpp */,
+				DC95DB4228BDBB8300DBFD80 /* ip_voter.cpp */,
+				DC95DB4328BDBB8300DBFD80 /* session.cpp */,
+				DC95DB4428BDBB8300DBFD80 /* upnp.cpp */,
+				DC95DB4528BDBB8300DBFD80 /* file.cpp */,
+				DC95DB4628BDBB8300DBFD80 /* ip_notifier.cpp */,
+				DC95DB4728BDBB8300DBFD80 /* file_pool.cpp */,
+				DC95DB4828BDBB8300DBFD80 /* bitfield.cpp */,
+				DC95DB4928BDBB8300DBFD80 /* session_impl.cpp */,
+				DC95DB4A28BDBB8300DBFD80 /* udp_socket.cpp */,
+				DC95DB4B28BDBB8300DBFD80 /* announce_entry.cpp */,
+				DC95DB4C28BDBB8300DBFD80 /* enum_net.cpp */,
+				DC95DB4D28BDBB8300DBFD80 /* hex.cpp */,
+				DC95DB4E28BDBB8300DBFD80 /* ip_filter.cpp */,
+				DC95DB4F28BDBB8300DBFD80 /* torrent_handle.cpp */,
+				DC95DB5028BDBB8300DBFD80 /* path.cpp */,
+				DC95DB5128BDBB8300DBFD80 /* lsd.cpp */,
+				DC95DB5228BDBB8300DBFD80 /* receive_buffer.cpp */,
+				DC95DB5328BDBB8300DBFD80 /* file_storage.cpp */,
+				DC95DB5428BDBB8300DBFD80 /* peer_class_set.cpp */,
+				DC95DB5528BDBB8300DBFD80 /* block_cache.cpp */,
+				DC95DB5628BDBB8300DBFD80 /* alert_manager.cpp */,
+				DC95DB5728BDBB8300DBFD80 /* session_call.cpp */,
+				DC95DB5828BDBB8300DBFD80 /* web_peer_connection.cpp */,
+				DC95DB5928BDBB8300DBFD80 /* http_connection.cpp */,
+				DC95DB5A28BDBB8300DBFD80 /* resolver.cpp */,
+				DC95DB5B28BDBB8300DBFD80 /* packet_buffer.cpp */,
+				DC95DB5C28BDBB8300DBFD80 /* torrent_peer_allocator.cpp */,
+				DC95DB5D28BDBB8300DBFD80 /* bandwidth_limit.cpp */,
+				DC95DB5E28BDBB8300DBFD80 /* proxy_base.cpp */,
+				DC95DB5F28BDBB8300DBFD80 /* ed25519 */,
+				DC95DB6028BDBB8300DBFD80 /* performance_counters.cpp */,
+				DC95DB6128BDBB8300DBFD80 /* smart_ban.cpp */,
+				DC95DB6228BDBB8300DBFD80 /* file_progress.cpp */,
+				DC95DB6328BDBB8300DBFD80 /* broadcast_socket.cpp */,
+				DC95DB6428BDBB8300DBFD80 /* torrent_peer.cpp */,
+				DC95DB6528BDBB8300DBFD80 /* utf8.cpp */,
+				DC95DB6628BDBB8300DBFD80 /* Makefile.in */,
+				DC95DB6728BDBB8300DBFD80 /* bandwidth_queue_entry.cpp */,
+				DC95DB6828BDBB8300DBFD80 /* torrent_info.cpp */,
+				DC95DB6928BDBB8300DBFD80 /* resolve_links.cpp */,
+				DC95DB6A28BDBB8300DBFD80 /* disk_io_thread_pool.cpp */,
+				DC95DB6B28BDBB8300DBFD80 /* socket_type.cpp */,
+				DC95DB6C28BDBB8300DBFD80 /* ut_metadata.cpp */,
+				DC95DB6D28BDBB8300DBFD80 /* utp_socket_manager.cpp */,
+				DC95DB6E28BDBB8300DBFD80 /* timestamp_history.cpp */,
+				DC95DB6F28BDBB8300DBFD80 /* bandwidth_manager.cpp */,
+				DC95DB7028BDBB8300DBFD80 /* cpuid.cpp */,
+				DC95DB7128BDBB8300DBFD80 /* time.cpp */,
+				DC95DB7228BDBB8300DBFD80 /* crc32c.cpp */,
+				DC95DB7328BDBB8300DBFD80 /* generate_peer_id.cpp */,
+				DC95DB7428BDBB8300DBFD80 /* xml_parse.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		DC95DAF028BDBB8300DBFD80 /* torrent */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = DC95DB7528BDBB8300DBFD80 /* Build configuration list for PBXLegacyTarget "torrent" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/chenyue/Documents/GitHub/btdownloader/btdownloader/torrent;
+			dependencies = (
+			);
+			name = torrent;
+			passBuildSettingsInEnvironment = 1;
+			productName = torrent;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		DC95DAEC28BDBB8300DBFD80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = DC95DAEF28BDBB8300DBFD80 /* Build configuration list for PBXProject "torrent" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC95DAEB28BDBB8300DBFD80;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC95DAF028BDBB8300DBFD80 /* torrent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		DC95DAED28BDBB8300DBFD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		DC95DAEE28BDBB8300DBFD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		DC95DB7628BDBB8300DBFD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = torrent;
+			};
+			name = Debug;
+		};
+		DC95DB7728BDBB8300DBFD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = torrent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC95DAEF28BDBB8300DBFD80 /* Build configuration list for PBXProject "torrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC95DAED28BDBB8300DBFD80 /* Debug */,
+				DC95DAEE28BDBB8300DBFD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC95DB7528BDBB8300DBFD80 /* Build configuration list for PBXLegacyTarget "torrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC95DB7628BDBB8300DBFD80 /* Debug */,
+				DC95DB7728BDBB8300DBFD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC95DAEC28BDBB8300DBFD80 /* Project object */;
+}
